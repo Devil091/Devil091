@@ -1,0 +1,7 @@
+'''importing library'''
+from itertools import permutations
+word = str(input ("Enter your word:"))
+world_list = permutations (word)
+sep = ''
+for i in list(word_list):
+    print (sep.join(i))
