@@ -5,3 +5,32 @@ world_list = permutations (word)
 sep = ''
 for i in list(word_list):
     print (sep.join(i))
+
+''' for example
+     word = "BACK"
+     List of words is possible number of combination
+     BACK
+BAKC
+BCAK
+BCKA
+BKAC
+BKCA
+ABCK
+ABKC
+ACBK
+ACKB
+AKBC
+AKCB
+CBAK
+CBKA
+CABK
+CAKB
+CKBA
+CKAB
+KBAC
+KBCA
+KABC
+KACB
+KCBA
+KCAB '''
+
